@@ -38,9 +38,9 @@ int studfeemenu(void)
 {
 	border();
 	int sfm;
-	gotoxy(6,6);cout<<"......................................";
+	gotoxy(6,6);cout<<"--------------------------------------";
 	gotoxy(6,7);cout<<":            FEE MENU                :";
-	gotoxy(6,8);cout<<":....................................:";
+	gotoxy(6,8);cout<<"--------------------------------------:";
 	gotoxy(6,9);cout<<":                                    :";
 	gotoxy(6,10);cout<<":    1. Pay student's fee            :";
 	gotoxy(6,11);cout<<":    2. Check payment status         :";
@@ -58,13 +58,13 @@ int officefeemenu(void)
 	border();
 	int sfm;
 	gotoxy(6,6);cout<<"......................................";
-	gotoxy(6,7);cout<<":            FEE MENU                :";
+	gotoxy(6,7);cout<<":          FEE MENU                  :";
 	gotoxy(6,8);cout<<":....................................:";
 	gotoxy(6,9);cout<<":                                    :";
-	gotoxy(6,10);cout<<":    1. Enter a new fee structure    :";
-	gotoxy(6,11);cout<<":    2. Edit current fee structure   :";
-	gotoxy(6,12);cout<<":    3. GO BACK                      :";
-	gotoxy(6,13);cout<<":    4. EXIT                         :";
+	gotoxy(6,10);cout<<":  1. Enter a new fee structure    :";
+	gotoxy(6,11);cout<<":  2. Edit current fee structure   :";
+	gotoxy(6,12);cout<<":  3. GO BACK                      :";
+	gotoxy(6,13);cout<<":  4. EXIT                         :";
 	gotoxy(6,14);cout<<":....................................:";
 	gotoxy(6,16);cout<<"Enter your choice : ";
 	cin>>sfm;
@@ -74,7 +74,7 @@ int officefeemenu(void)
 int programmenu()
 {   
 	border();
-	int mc;
+	int XYZ;
 	gotoxy(6,6);cout<<"............................";
 	gotoxy(6,7);cout<<":                          :";
 	gotoxy(6,8);cout<<":    1. Fee menu           :";
@@ -83,6 +83,6 @@ int programmenu()
 	gotoxy(6,11);cout<<":                          :";
 	gotoxy(6,12);cout<<":..........................:";
 	gotoxy(6,14);cout<<"Enter your choice : ";
-	cin>>mc;
-	return mc;
+	cin>>XYZ;
+	return XYZ;
 }
